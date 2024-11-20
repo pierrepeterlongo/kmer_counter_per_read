@@ -1,0 +1,11 @@
+[package]
+name = "kmer_counter_per_read"
+version = "0.1.0"
+authors = ["Pierre Peterlongo <pierre.peterlongo@inria.fr>"]
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+fxread = { version = "0.2.14" }
+flate2 = "1.0"
+zstd = "0.13"
