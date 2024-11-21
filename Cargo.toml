@@ -5,6 +5,8 @@ authors = ["Pierre Peterlongo <pierre.peterlongo@inria.fr>"]
 edition = "2021"
 
 [dependencies]
+anyhow           = { version = "1" }
+assert_cmd      = { version = "2"}
 clap = { version = "4.5", features = ["derive"] }
 fxread = { version = "0.2.14" }
 flate2 = "1.0"
